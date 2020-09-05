@@ -10,7 +10,7 @@
                 "command": "bin/mac/acme -f cbm -l build/labels -o build/main.prg code/main.asm && /Applications/Vice/x64.app/Contents/MacOS/x64 -moncommands build/labels build/main.prg 2> /dev/null"
             },
             "windows": {
-                "command": "bin\\win\\acme -f cbm -l build/labels -o build/main.prg code/main.asm && C:/tools/vice/x64.exe -moncommands build/labels build/main.prg"
+                "command": "bin\\win\\acme -f cbm -l build/labels -o build/main.prg code/main.asm && D:\\GTK3VICE-3.4-win64-r37296\\x64sc.exe -moncommands build/labels build/main.prg"
             },
             "linux": {
                 "command": "bin/linux/acme -f cbm -l build/labels -o build/main.prg code/main.asm && x64sc.gtk -moncommands build/labels build/main.prg 2> /dev/null"
